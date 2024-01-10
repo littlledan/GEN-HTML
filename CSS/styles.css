@@ -1,0 +1,110 @@
+body {
+    background-image: url('./estilo/imagens/Sett_0.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    opacity: 1.0;
+    margin: 180px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.imgtopo{
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    width: 1000px;
+    height: 650px;
+    border: 2px solid grey;
+}
+
+.container-skils{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 50px;
+    background-color: rgba(0, 0, 0, 0.505);
+    border-radius: 20px;
+}
+
+.conteudo-video{
+    width: 600px;
+    height: 400px;
+    display: flex; 
+    margin-left: 200px; 
+    border: 2px solid grey;
+}
+
+.container-header{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 10%;
+}
+
+.container-name{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.505);
+    border-radius: 20px;
+}
+
+.container-topo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text{
+    margin: 55px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+.titulo{
+    font-size: 50px;
+    color: #cdcd24;
+}
+
+.titulo2{
+    font-size: 30px;
+    margin: 60px;
+    color: whitesmoke;
+}
+
+.biografia{
+    margin: 55px;
+    font-size: 35px;
+    color: whitesmoke;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.505);
+    border-radius: 20px;
+}
+
+#nome{
+    font-size: 70px;
+    color: #cdcd24;
+    margin: 50px;
+}
+
+#apelido{
+    font-size: 50px;
+    color: #cdcd24;
+}
+
+a{
+    font-size: 50px;
+    color:#ffffff;
+    margin-left: -25px;
+}
+
+.barra{
+    background-color: #333;
+    color: #fff; 
+    padding: 20px; 
+    text-align: center; 
+    font-size: 25px;
+}
