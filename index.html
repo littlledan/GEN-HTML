@@ -4,24 +4,55 @@
 <head>
     <meta charset="UTF-8"> <!--Permite caracteres especiais-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Permite responsividade-->
-    <title>Biografia League of Legends - Sett</title>
+    <title>League of Legends - Sett</title>
     <link rel="stylesheet" type="text/css" href="./CSS/styles.css">
 </head>
 
 <body>
 
+    <header class="menu_container flex"> <!--Cabeçalho da Página-->
+        <div class="menu_content">
+            <header>
+                <a href="#">Home - Sett</a>
+            </header>
+            <nav> <!--Navegação - Menu-->
+                <ul class="menu_lista"> <!--Lista Não Ordenada-->
+                    <li>
+                        <a href="#sobre">Biografia📜</a>
+                    </li>
+                    <li>
+                        <a href="#skils">Habilidades👊🏼</a>
+                    </li>
+                    <li>
+                        <a href="./origem.html">Terra Natal🌆</a>
+                    </li>
+                    <li>
+                        <a href="./origem.html#sobre">Biografia de Ionia📜</a>
+                    </li>
+                    <li>
+                        <a href="./avaliacao.html">Avaliação✅</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
     <div class="content">
         <header>
             <div class="container-topo">
-                <h1 id="nome">SETT</h1> <!--Representa o titulo da pagina-->
-                <h2 id="apelido">O CHEFE</h2>
+                <h1 id="tema">SETT</h1> <!--Representa o titulo da pagina-->
+                <h2 id="sub-tema">(O CHEFE)</h2>
             </div>
         </header>
 
         <img class="imgtopo" src="./imagens/822ccc75cc3cc820872a505a27504252.gif">
 
+        <header  id="sobre" class="container-header">
+            <h1 class="titulo">Biografia:</h1>
+        </header>
+
         <!-- paragrafo a ser mostrado -->
-        <header class="sombra">
+        <section class="sombra">
             <p class="biografia">Mesmo sendo uma figura poderosa no próspero submundo criminoso de Ionia, Sett é de
                 origem
                 humilde. Nascido da relação de uma vastayesa ioniana com um humano noxiano, o "garoto-fera" foi
@@ -112,94 +143,88 @@
                 manter
                 bem longe.</p>
 
+        </section>
+
+        <header  id="skils" class="container-header">
+            <h1 class="titulo">Move Set:</h1>
         </header>
 
-            
-
-        <header class="sombra">
-
-               <div class="container-header">
-                    <h1 class="titulo">Move Set:</h1>
-                </div>
+        <section class="sombra">
                     
-                <div class="container-name">
-                    <h2 class="titulo2">OUSADIA DA ARENA-(passiva)</h2>
-                </div>
+            <div class="container-name">
+                <h2 class="titulo2">OUSADIA DA ARENA-(passiva)</h2>
+            </div>
 
-                <div class="container-skils">
-                    <p class="text">Os ataques básicos de Sett alternam entre socos de direita e esquerda. Socos de direita
-                        são
-                        levemente mais fortes e rápidos. Como Sett odeia perder, recebe Regeneração de Vida adicional com
-                        base
-                        na Vida perdida.</p>
-                    <video controls class="conteudo-video">
-                        <source src="./videos/passiva.webm" type="video/mp4">
-                    </video>
-                </div>
+            <div class="container-skils">
+                <p class="text">Os ataques básicos de Sett alternam entre socos de direita e esquerda. Socos de direita
+                    são
+                    levemente mais fortes e rápidos. Como Sett odeia perder, recebe Regeneração de Vida adicional com
+                    base
+                    na Vida perdida.
+                </p>
+                <video controls class="conteudo-video">
+                    <source src="./videos/passiva.webm" type="video/mp4">
+                </video>
+            </div>
 
-                <div class="container-name">
-                    <h2 class="titulo2">PANCADARIA-(Tecla "Q")</h2>
-                </div>
+            <div class="container-name">
+                <h2 class="titulo2">PANCADARIA-(Tecla "Q")</h2>
+            </div>
                     
-                <div class="container-skils">
-                    <p class="text">Os próximos dois ataques de Sett causam dano adicional com base na Vida máxima do alvo.
-                        Ele
-                        também recebe Velocidade de Movimento enquanto se move em direção a Campeões inimigos.</p>
-                    <video controls class="conteudo-video">
-                        <source src="./videos/habilidade Q.webm" type="video/mp4">
-                    </video>
-                </div>
+            <div class="container-skils">
+                <p class="text">Os próximos dois ataques de Sett causam dano adicional com base na Vida máxima do alvo.
+                    Ele
+                    também recebe Velocidade de Movimento enquanto se move em direção a Campeões inimigos.
+                </p>
+                <video controls class="conteudo-video">
+                    <source src="./videos/habilidade Q.webm" type="video/mp4">
+                </video>
+            </div>
 
-                <div class="container-name">
-                    <h2 class="titulo2">CASCA-GROSSA-(Tecla "W")</h2>
-                </div>
+            <div class="container-name">
+                <h2 class="titulo2">CASCA-GROSSA-(Tecla "W")</h2>
+            </div>
                     
-                <div class="container-skils">
-                    <p class="text">O dano que Sett sofre é armazenado passivamente como Ousadia. Ao conjurar a habilidade,
-                         Sett
-                        consome toda a Ousadia armazenada em troca de um escudo e desfere um soco em uma área, causando Dano
-                        Verdadeiro no centro e Dano Físico nas laterais.</p>
-                    <video controls class="conteudo-video">
-                        <source src="./videos/habilidade W.webm" type="video/mp4">
-                    </video>
-                </div>
+            <div class="container-skils">
+                <p class="text">O dano que Sett sofre é armazenado passivamente como Ousadia. Ao conjurar a habilidade,
+                    Sett
+                    consome toda a Ousadia armazenada em troca de um escudo e desfere um soco em uma área, causando Dano
+                    Verdadeiro no centro e Dano Físico nas laterais.
+                </p>
+                <video controls class="conteudo-video">
+                    <source src="./videos/habilidade W.webm" type="video/mp4">
+                </video>
+            </div>
 
-                <div class="container-name">
-                    <h2 class="titulo2">QUEBRA-CRÂNIO-(Tecla "E")</h2>
-                </div>
+            <div class="container-name">
+                <h2 class="titulo2">QUEBRA-CRÂNIO-(Tecla "E")</h2>
+            </div>
 
-                <div class="container-skils">
-                    <p class="text">Sett puxa todos os inimigos de cada lado seu, causando dano e atordoando. Caso haja
-                        inimigos
-                        somente de um lado, eles sofrem redução de velocidade em vez de atordoamento.</p>
-                    <video controls class="conteudo-video">
-                        <source src="./videos/habilidade E.webm" type="video/mp4">
-                    </video>
-                </div>
+            <div class="container-skils">
+                <p class="text">Sett puxa todos os inimigos de cada lado seu, causando dano e atordoando. Caso haja
+                    inimigos
+                    somente de um lado, eles sofrem redução de velocidade em vez de atordoamento.
+                </p>
+                <video controls class="conteudo-video">
+                    <source src="./videos/habilidade E.webm" type="video/mp4">
+                </video>
+            </div>
 
-                <div class="container-name">
-                    <h2 class="titulo2">HORA DO SHOW-(Tecla "R")</h2>
-                </div>
+            <div class="container-name">
+                <h2 class="titulo2">HORA DO SHOW-(Tecla "R")</h2>
+            </div>
 
-                <div  class="container-skils">
-                    <p class="text">Sett carrega um Campeão inimigo pelos ares e o arremessa no chão, causando dano e
-                        redução de
-                        velocidade a todos os inimigos que estiverem próximos ao local de aterrissagem.</p>
-                    <video controls class="conteudo-video">
-                        <source src="./videos/habilidade R.webm" type="video/mp4">
-                    </video>
-                </div>
+            <div  class="container-skils">
+                <p class="text">Sett carrega um Campeão inimigo pelos ares e o arremessa no chão, causando dano e
+                    redução de
+                    velocidade a todos os inimigos que estiverem próximos ao local de aterrissagem.
+                </p>
+                <video controls class="conteudo-video">
+                    <source src="./videos/habilidade R.webm" type="video/mp4">
+                </video>
+            </div>
 
-            </header>
-
-            <header>
-                <h1 class="text">Link para pagina da Terra natal de Sett:</h1>
-                <ul>
-                    <li>
-                        <a href="origem.html"> Terra Natal </a>
-                    </li>
-                </ul>
-            </header>
+        </section>
 
         <footer class="barra">
             Feito com sagacidade por Daniel Lima!!!

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>League of Legends - Sett: Avaliação</title>
+    <link rel="stylesheet" type="text/css" href="./CSS/styles.css">
+</head>
+
+
+<body>
+    
+    <header class="menu_container flex"> <!--Cabeçalho da Página-->
+        <div class="menu_content">
+            <header>
+                <a href="./index.html">Home - Sett</a>
+            </header>
+            <nav> <!--Navegação - Menu-->
+                <ul class="menu_lista"> <!--Lista Não Ordenada-->
+                    <li>
+                        <a href="./index.html#sobre">Biografia📜</a>
+                    </li>
+                    <li>
+                        <a href="./index.html#skils">Habilidades👊🏼</a>
+                    </li>
+                    <li>
+                        <a href="./origem.html">Terra Natal🌆</a>
+                    </li>
+                    <li>
+                        <a href="./origem.html#sobre">Biografia de Ionia📜</a>
+                    </li>
+                    <li>
+                        <a href="#">Avaliação✅</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="content">
+        <section id="avaliacao-tema">
+            <header>
+                <head class="container-topo">
+                    Sett - "Pera aí, olha só… A mamis não pode saber de nada disso… Beleza?!"<br>
+                    Eu não sou a mamis do Sett 🤣 Então avalia minha pagina ai e deixe um Feedbak ✌️.
+                </head>
+            </header>
+
+        </section>
+
+        <section class="avaliacao">
+
+            <img class="imgavaliacao" src="./imagens/mamis.jpg">
+
+                <form>
+                    <label>Nome:</label>
+                    <input type="text" id="nome" onkeyup="validaNome()" placeholder="Aqui é seu nome hehe" required /><br>
+                    <div id="txtNome"></div>
+
+                    <label>Email:</label>
+                    <input type="email" id="email" onkeyup="validaEmail()" placeholder="Aqui é seu email hehe" required /><br>
+                    <div id="txtEmail"></div>            
+
+                    <label>Feedback:</label>
+                    <textarea name="feedback" id="feedback" onkeyup="validaFeedback()" placeholder="Aqui é a sua opnião sobre o site❤️" required></textarea>
+                    <div id="txtFeedback"></div> 
+
+                    <button class="btn" type="submit" onclick="enviar()">Enviar</button>
+                </form>
+            
+        </section>
+
+        <footer class="barraavaliacao">
+            Feito com sagacidade por Daniel Lima!!!
+        </footer>
+
+    </div>
+
+    <script src="./js/script.js"></script>
+
+    
+</body>
+
+
+</html>
