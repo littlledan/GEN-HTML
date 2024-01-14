@@ -17,7 +17,23 @@ body {
     margin: 0;
 }
 
+body::-webkit-scrollbar {
+    /* largura da Scrollbar */
+    width: 8px;
+}
 
+body::-webkit-scrollbar-track {
+    /* cor do plano de fundo da Scrollbar */
+    background: black; 
+}
+
+body::-webkit-scrollbar-thumb {
+    /* cor do scroll */
+    background-color: goldenrod;
+
+    /* borda do scroll */
+    border-radius: 20px;
+}
 
 html{
     height: 100vh;
